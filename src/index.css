@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gallery Images */
+.gallery img {
+  border-radius: 6px;
+}
+
+/* Form Styling */
+.ant-form-item-explain-error {
+  text-align: left;
+}
+
+.ant-form-item-label {
+  padding: 0 0 5px !important;
+}
+
+.list3 {
+  margin-right: 45px;
+  width: 29%;
+  float: left;
+}
+
+.category-sub li,
+.category-sub {
+  width: 100%;
+  float: left;
+  list-style-type: circle;
+}
+
+/* Button Styles */
+.ant-btn {
+  font-size: 14px;
+  padding: 6px 15px;
+  border-radius: 6px;
+}
+
+.ant-btn.ant-btn-loading {
+  background: #1677ff;
+  box-shadow: none;
+  color: #fff;
+}
+
+/* Input Styles */
+.ant-input {
+  min-height: 29px;
+}
+
+/* Select Dropdown Images */
+.ant-select-selection-item img,
+.ant-select-item-option-content img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* List Items */
+.amen li {
+  line-height: 28px;
+}
+
+.lin1 {
+  line-height: 45px;
+}
+
+/* Global Layout */
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
